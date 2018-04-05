@@ -1,0 +1,40 @@
+{
+    "name": "solutionexcel/magento2-reindex",
+    "description": "Magento 2 extension allow to admin user to reindex quickly and easily, without command line.",
+    "keywords": [
+        "magento 2",
+        "reindex",
+        "admin reindex"
+    ],
+    "require": {
+        "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "homepage": "https://www.solutionexcel.com/",
+    "support": {
+        "email": "info@solutionexcel.com",
+        "issues": "https://github.com/solutionexcel/magento2-reindex/issues/"
+    },
+    "authors": [
+        {
+            "name": "Solution Excel",
+            "email": "info@solutionexcel.com",
+            "homepage": "https://www.solutionexcel.com/",
+            "role": "Owner"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solutionexcel\\Reindex\\": ""
+        }
+    }
+}
